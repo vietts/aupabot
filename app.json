@@ -1,0 +1,27 @@
+{
+  "name": "aupabot",
+  "description": "",
+  "scripts": {
+  },
+  "env": {
+    "SLACK-TOKEN": {
+      "required": true
+    },
+    "UNFURL-LINKS": {
+      "required": true
+    },
+    "WELCOME-MESSAGE": {
+      "required": true
+    }
+  },
+  "formation": {
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
